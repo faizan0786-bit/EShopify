@@ -3,7 +3,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
-// import { DarkMode } from "./DarkMode";
+import DarkMode from "./DarkMode";
 const Menu = [
   { 
     id: 1,
@@ -77,7 +77,7 @@ const Navbar = (handleOrderPopup) => {
               <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
             <div>
-              {/* <DarkMode /> */}
+              <DarkMode />
             </div>
           </div>
         </div>

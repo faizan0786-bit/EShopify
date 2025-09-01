@@ -1,4 +1,4 @@
-import BannerImg from "../../assets/winter_sale_50.webp";
+import BannerImg from "../../assets/4547829.jpg";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";

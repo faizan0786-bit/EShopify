@@ -10,9 +10,10 @@ import { useEffect, useState } from "react";
 import Banner from "./Components/Banner/Banner.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 // import DarkMode from "./Components/Navbar/DarkMode.jsx";
-import './App.css';
+import './index.css';
 // import 'tailwindcss/tailwind.css';
 import Hero from "./Components/Hero/Hero.jsx";
+import Product from "./Components/Products/Product.jsx";
 function App() {
   const [orderPopup, setOrderPopup] = useState(false);
 
@@ -30,20 +31,19 @@ function App() {
   }, []);
   return (
     <>
-     <Router>
+     {/* <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* fallback 404 page */}
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    </Router> */}
     
-      {/* <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
+      <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
         <Navbar handleOrderPopup={handleOrderPopup} />
         <Hero handleOrderPopup={handleOrderPopup} />
-        <Products />
+        <Product />
         <Banner />
-      </div> */}
+      </div>
       {/* <Banner /> */}
     </>
   );

@@ -1,7 +1,7 @@
-const { default: DarkMode } = require("./src/Components/Navbar/DarkMode");
+import DarkMode from "./src/Components/Navbar/DarkMode"
 
 // tailwind.config.js
-module.exports = {
+export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
