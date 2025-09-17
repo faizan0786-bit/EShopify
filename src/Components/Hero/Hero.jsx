@@ -26,15 +26,15 @@ const ImageList = [
     },
 ];
 
-export const Hero = ({ handleOrderPopup }) => {
+const Hero = ({ handleOrderPopup }) => {
     var setting = {
         dots: false,
         arrow: false,
         infinite: true,
-        speed: 800,
+        speed: 700,
         autoplay: true,
         slidesToScroll: 1,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3500,
         cssEase: "ease-in-out",
         pauseOnHover: false,
         pauseOnFocus: true,

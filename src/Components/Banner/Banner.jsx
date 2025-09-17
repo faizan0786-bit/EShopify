@@ -4,12 +4,12 @@ import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 const Banner = () => {
   return (
-    <div className="min-h-[680px] flex justify-center py-12 sm:py-0">
+    <div className="min-h-[680px] flex justify-items-center py-12 sm:py-0">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
           <div data-aos="zoom-in">
             <img
-              className="max-w-[400px] h-[350px] w-full mx-auto object-cover my-4"
+              className="max-w-[450px] h-[400px] w-full mx-auto object-cover my-4"
               src={BannerImg}
               alt="Banner img"
             />
@@ -20,7 +20,7 @@ const Banner = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className="text-sm text-gray-500 tracking-wide leading-5"
+              className="text-sm text-gray-300 tracking-wide leading-5"
             >
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
               fugiat odio pariatur impedit sint. Dolorem autem suscipit vitae.
