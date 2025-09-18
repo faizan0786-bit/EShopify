@@ -55,7 +55,9 @@ const Hero = ({ handleOrderPopup }) => {
 
                                 </p>
                                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" >
-                                    <button onClick={() => { handleOrderPopup(); }} className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
+                                    <button 
+                                    onClick={() => { handleOrderPopup(); }} className="bg-gradient-to-r from-primary to-secondary duration-200 text-white py-2 px-4 rounded-full 
+         hover:bg-white hover:text-black hover:scale-105">
                                         Order Now
 
                                     </button>
